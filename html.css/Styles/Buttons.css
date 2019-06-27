@@ -1,0 +1,19 @@
+.Button {
+    Background-Color: #cea135;
+    Color: #11122b;
+    Font-Size: 1.25em;
+    Padding: 10px 25px;
+    Border: 1px Solid #cea135;
+    Border-Radius: 2px;
+    Outline: None;
+    Transition: .3s;
+}
+
+.Button:active {
+    Box-Shadow: 5px 5px 30px rgba(0, 0, 0, .4)
+}
+
+.Centered-Button-Wrapper {
+    Display: Flex;
+    Justify-Content: Center;
+}

@@ -1,0 +1,24 @@
+.Spacer60 {
+    Height: 60px;
+    Width:100%;
+}
+
+.Spacer10 {
+    Height: 10px;
+    Width:100%;
+}
+
+
+.Anchor-Link {
+    Text-Decoration: None;
+}
+
+.Anchor-Link:Focus {
+    Outline: None;
+}
+
+.Anchor-Link h1::After {
+    Font-Family: "Font Awesome 5 Pro";
+    Content: " \f0c1";
+    Font-Weight: 900;
+}

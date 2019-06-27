@@ -1,0 +1,76 @@
+/* Hero Section Styles */
+.Hero-Section {
+    Background-Image: url(../Images/Backgrounds/Burger.jpg);
+    Padding: 100px;
+    Height: 200px;
+    Background-Attachment: Fixed;
+    Background-Position: Center;
+    Background-Repeat: No-Repeat;
+    Background-Size: Cover;
+}
+
+.Hero-Section > .Top-Heading {
+    Padding: 1px 20px;
+    Background-Color: #11122b;
+    Color: #cbcbcb;
+    Width: 290px;
+    Border-Radius: 2px;
+}
+
+.Hero-Section > .Bottom-Heading {
+    Padding: 1px 20px;
+    Background-Color: #cea135;
+    Color: #11122b;
+    Width: 107px;
+    Border-Radius: 2px;
+    Margin-Top: 15px;
+}
+
+/* Features Section Styles */
+.Features-Section {
+    Height: 400px;
+    Background-Image: url(../Images/Backgrounds/fries-multiply-bg.jpg);
+    Background-Color: #cea135;
+    Border-Top: 10px Solid White;
+    Color: #11122b;
+    Display: Flex;
+    Justify-Content: Center;
+    Align-Items: Center;
+    Font-Family: 'Open Sans Condensed', sans-serif;
+    Box-Shadow: Inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58 );
+}
+.Features-Section > .Columns-Wrapper {
+    Width: 1000px;
+    Display: Flex;
+    Justify-Content: Space-Between;
+}
+
+.Features-Section > .Columns-Wrapper > .Column {
+    Padding: 20px;
+    Margin: 42px;
+    Text-Align: Center;
+    Border-Bottom: 5px Solid Transparent;
+    Border-Radius: 10px;
+    Transition: 1s;
+}
+
+.Features-Section > .Columns-Wrapper > .Column:hover {
+    Border-Bottom: 5px Solid #11122b;
+}
+
+.Features-Section > .Columns-Wrapper > .Column :nth-child(1) {
+   Font-Size: 3em;
+}
+
+.Features-Section > .Columns-Wrapper > .Column :nth-child(1) {
+    Font-Size: 1.5em;
+    Font-Weight: 900;
+    Height: 50px;
+    Transition: 1s;
+ }
+
+ 
+.Features-Section > .Columns-Wrapper > .Column :nth-child(1) {
+    Letter-Spacing: 2px;
+ }
+

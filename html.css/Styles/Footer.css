@@ -1,0 +1,60 @@
+.Footer {
+    Background-Color: #11122b;
+    Color: #cbcbcb;
+    Font-Family: 'Open Sans Condensed', sans-serif;
+    Display: Flex;
+    Justify-Content: Center;
+    Align-Items: Center;
+    Flex-Direction: Column;
+    Height: 400px;
+    Margin-Top: -4px;
+}
+
+.Footer > .Logo-Footer img {
+     Width: 180px;
+     Height: 100%;
+     /* Filter: Brightness (50%) */
+     Opacity: .5;
+}
+
+.Footer > .Footer-Phone-Hours span {
+    Margin-left: 10px;
+    Margin-right: 10px;
+    Font-size: 1em;
+    Letter-spacing: 2px;
+}
+
+.Footer > .Footer-Phone-Hours > .Hours {
+    Font-size: .8em;
+    Color: #cea135;
+}
+
+.Footer > .Links-Wrapper {
+    Margin-Top: 40px;
+    Margin-Bottom: 40px;
+    Width: 350px;
+}
+
+.Footer > .Social-Media-Icons-Wrapper {
+    Display: Flex;
+}
+
+.Footer > .Social-Media-Icons-Wrapper a {
+    Font-Size: 2em;
+    Color: #cbcbcb;
+    Margin-Top: 10px;
+    Margin-Bottom: 30px;
+    Justify-Content: Space-Between;
+    Margin-Left: 15px;
+    Margin-Right: 15px;
+}
+
+.Footer > .Social-Media-Icons-Wrapper a:hover {
+    Color: #cea135;
+}
+
+.Footer > .Copyright-Wrapper {
+    Margin-Bottom: 36px;
+    Font-Size: .8em;
+    Color: #61446b;
+}

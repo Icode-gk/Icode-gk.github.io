@@ -1,0 +1,120 @@
+/*Common Nav Style */
+.Navigation-Wrapper {
+    Height: 190px;
+    Background-Color: #11122b;
+    Color: #cbcbcb;
+    /* Flexbox Container */
+    Display: Flex;
+    Justify-Content: Space-Between;
+    Align-Items: Center;
+    Padding: 60px 100px;
+}
+
+/* Left Column Styles */
+.Navigation-Wrapper > .Left-Column {
+    Display: Flex;
+    Align-Items: Center;
+}
+
+.Navigation-Wrapper > .Left-Column > .Icon {
+    Margin-Right: 15px;
+}
+
+.Navigation-Wrapper > .Left-Column > .Icon i {
+    Font-Size: 2em;
+}
+
+.Navigation-Wrapper > .Left-Column > .Phone-Hours-Wrapper {
+    Display: Grid;
+    Grid-Template-Columns: 1fr;
+    Grid-Gap: 10px;
+}
+
+.Navigation-Wrapper > .Left-Column > .Phone-Hours-Wrapper > .Hours {
+    Font-Family: 'Open Sans Condensed', sans-serif;
+    Color: #858585;
+    Font-Size: .8em
+}
+
+.Links-Wrapper > .Nav-Link a {
+    Font-Family: 'Open Sans Condensed', sans-serif;
+    Color: White;
+}
+
+/* Center Column Styles */
+.Navigation-Wrapper > .Center-Column {
+    Display: Grid;
+    Grid-Template-Columns: 1fr;
+    Grid-Gap: 42px;
+    Width: 500px;
+}
+
+.Navigation-Wrapper > .Center-Column > .Banner-Image {
+    Display: Flex;
+    Justify-Content: Center;
+}
+
+.Navigation-Wrapper > .Center-Column > .Banner-Image img {
+    Width: 216px;
+    Height: 100%;
+}
+
+.Links-Wrapper {
+    Display: Flex;
+    Justify-Content: Space-Between;
+    Align-Items: Center;
+}
+
+.Links-Wrapper > .Nav-Link {
+    Width: 70px;
+    Text-Align: Center;
+}
+
+.Links-Wrapper > .Nav-Link a {
+    Font-Family: 'Open Sans Condensed', sans-serif;
+    Color: #cbcbcb;
+    Text-Decoration: None;
+    Transition: o.5s;
+}
+
+.Links-Wrapper > .Nav-Link a:hover {
+    Color: #cea135;
+    Letter-Spacing: 2px;
+}
+
+/* Right Column Styless */
+.Navigation-Wrapper > .Right-Column {
+    Display: Flex;
+    Align-Items: Center;
+}
+.Navigation-Wrapper > .Right-Column > .Address-Wrapper {
+    Font-Family: 'Open Sans Condensed', sans-serif;
+    Text-Align: Right;
+}
+
+.Navigation-Wrapper > .Right-Column > .Address-Wrapper a {
+    Color: #858585;
+    Text-Decoration: None;
+    Font-Size: .9em;
+    Transition: .5s;
+} 
+
+.Navigation-Wrapper > .Right-Column > .Address-Wrapper a:hover {
+    Color: #cea135
+} 
+
+
+.Navigation-Wrapper > .Right-Column > .Contact-Icon {
+    Margin-Left: 15px;
+    Font-Size: 2em;
+}
+
+.Navigation-Wrapper > .Right-Column > .Contact-Icon a {
+    Color: #cbcbcb;
+    Transition: .5s;
+}
+
+.Navigation-Wrapper > .Right-Column > .Contact-Icon a:hover {
+    Color: #cea135;
+}
+

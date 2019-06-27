@@ -1,0 +1,27 @@
+.Contact-Grid-Wrapper {
+    Width: 1000px;
+    Display: Grid;
+    Grid-Template-Columns: 1fr 3fr;
+    Grid-Gap: 100px;
+}
+
+.Contact-Grid-Wrapper > .Company-Metadata-Sidebar-Wrapper > .Logo img {
+    Width: 100%;
+    Margin-Bottom: 20px;
+}
+
+.Company-Metadata-Sidebar-Wrapper > .Company-Details-Wrapper {
+    Font-Family: "Mali", sans-serif;
+    Font-Weight: 900;
+    Display: Flex;
+    Justify-Content: Space-Between;
+    Align-Items: Center;
+    Margin-Top: 20px;
+    Margin-Bottom: 20px;
+    Text-Align: Right;
+    Font-Size: .95em;
+}
+
+.Company-Metadata-Sidebar-Wrapper > .Company-Details-Wrapper i {
+    Color: #cea135;
+}

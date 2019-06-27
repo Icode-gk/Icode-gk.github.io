@@ -1,0 +1,32 @@
+.Squares-Wrapper {
+    Display: Flex;
+    Justify-Content: Center;
+}
+
+.Squares-Wrapper > .Squares {
+    Width: 1000px;
+}
+
+.Squares-Wrapper > .Squares > .Square {
+    Display: Grid;
+    Grid-Template-Columns: 1fr 1fr; 
+    Margin-Top: -4px
+}
+
+.Square > .Image-Wrapper img {
+    Width: 100%;
+    Height: 500px;
+    Object-Fit: Cover;
+}
+
+.Square > .Square-Text-Wrapper {
+    Display: Flex;
+    Justify-Content: Center;
+    Align-Items: Center;
+    Flex-Direction: Column;
+    Padding: 42px;
+}
+
+.Square > .Square-Text-Wrapper h1 {
+    Color: #cea135;
+}

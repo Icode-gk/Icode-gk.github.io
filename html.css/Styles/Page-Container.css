@@ -1,0 +1,21 @@
+.Page-Container {
+    Display: Flex;
+    Justify-Content: Center;
+}
+
+.Page-Container > .Content-Wrapper {
+    Width: 1000px;
+}
+
+.Page-Container > .Content-Wrapper > #chef {
+    Width: 350px;
+    Margin: 23px 40px 20px 0px;
+    Float: Left;
+    Border: 1px Solid #cea135;
+}
+
+.Page-Container > .Content-Wrapper p {
+    Letter-Spacing: 1px;
+    Line-Height: 30px;
+    Font-Family: 'Mali', sans-serif;
+}

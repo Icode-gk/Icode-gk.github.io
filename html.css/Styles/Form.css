@@ -1,0 +1,70 @@
+.Form > .Form-Group {
+    Margin-Top: 30px;
+    Margin-Bottom: 30px;
+}
+
+.Form input {
+    Font-Size: 1.5em;
+    Font-Family: Inherit;
+    Color: Inherit;
+    Padding: 1.5rem 2rem;
+    Border-Radius: 2px;
+    Border: None;
+    Border-Bottom: 3px Solid #11122b;
+    Width: 100%;
+    Display: Block;
+    Transition: All .3s;
+}
+
+.Form input:focus {
+    Outline: None;
+    Box-Shadow: 0 2rem 2rem rgba(0, 0, 0, .1);
+    Border-Bottom: 3px Solid #cea135;
+}
+
+
+
+.Form textarea {
+    Margin-Top: 20px;
+    Width: 100%;
+    Height: 250px;
+    Border-Radius: 3px;
+    Border: 3px Solid #11122b;
+    Font-Size: 1.5rem;
+    Font-Family: Inherit;
+    Color: Inherit;
+    Padding: 1.5rem 2rem;
+    Transition: All .3s;
+}
+
+.Form textarea:focus{
+    Outline: None;
+    Box-Shadow: 0 2rem 2rem rgba(0, 0, 0, .1);
+    Border: 3px Solid #cea135;
+}
+
+.Form input::-webkit-input-placeholder, .Form textarea::-webkit-input-placeholder {
+    Color: #11122b;
+}
+
+.Form input:focus::-webkit-input-placeholder, .Form textarea:focus::-webkit-input-placeholder {
+    Color: Transparent;
+}
+
+.Form label {
+    Font-Size: 1.2rem;
+    Font-Weight: 700;
+    Margin-Left: 2rem;
+    Margin-Top: .7rem;
+    Display: Block;
+    Transition: All .3s;
+    Color: #cea135;
+    Visibility: Hidden;
+    Opacity: 0;
+}
+
+.Form input:focus + label, .Form textarea:focus + label {
+    Opacity: 1;
+    Visibility: Visible;
+    Transform: TranslateY(1rem);
+}

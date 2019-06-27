@@ -1,0 +1,44 @@
+.Skewed-Header {
+    Position: Relative;
+    Height: 400px;
+    Overflow: Hidden;
+}
+
+.Skewed-Header > .Header-BG {
+    Position: Absolute;
+    Top: 0;
+    Bottom: 0;
+    Left: 0;
+    Right: 0;
+    Height: 100%;
+    Width: 100%;
+    Background-Repeat: No-Repeat;
+    Background-Size: 100%;
+    Transform: SkewY(-6deg);
+    Transform-Origin: Top Left;
+    Filter: Brightness(50%);
+}
+
+.Skewed-Header > .Skewed-Header-Wrapper {
+    Position: Absolute;
+    Display: Flex;
+    Justify-Content: Center;
+    Width: 100vw;
+}
+
+.Skewed-Header > .Skewed-Header-Wrapper > .Skewed-Header-Content {
+    Width: 1000px;
+    Display: Flex;
+    Justify-Content: Space-Between;
+    Align-Items: Vertical;
+}
+.Skewed-Header > .Skewed-Header-Wrapper > .Skewed-Header-Content > .Heading-Wrapper {
+    Background-Color: #cea135;
+    Color: #11122b;
+    Border-Bottom-Left-Radius: 2px;
+    Border-Bottom-Right-Radius: 2px;
+    Width: 175px;
+    Padding: 10px;
+    Text-Align: Center;
+}
+ 
